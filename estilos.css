@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: #910000ba;
     color: white;
-    padding: 1rem 0;
+    padding: 1px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     position: fixed;
     width: 100%;
@@ -206,6 +206,7 @@ footer {
     padding: 2.5rem;
     margin-top: 3rem;
     width: 100%;
+    position: sticky;
 }
 footer h3 {
     color: white;
@@ -385,39 +386,4 @@ textarea {
         transform:scale(1);
     }
 }
-/*Recurri a la IA porque no sabia como darle estilo*/
-body{
-    background:#0b0b0b !important;
-    color:#e5e5e5 !important;
-}
-h1,h2,h3,h4,h5,h6{
-    color:#910000 !important;
-}
-p,li,span{
-    color:#e5e5e5 !important;
-}
-a{
-    color:white !important;
-    text-decoration:none;
-}
-.card{
-    background:#161616 !important;
-    border:2px solid #910000 !important;
-    color:white !important;
-}
-.card-title{
-    color:#c40000 !important;
-}
-.card-text{
-    color:#e5e5e5 !important;
-}
-.btn-danger{
-    background:#910000 !important;
-    border-color:#910000 !important;
-}
-.btn-danger:hover{
-    background:#c40000 !important;
-    border-color:#c40000 !important;
-}
-/**/
 /*Las tablas se encuentran en el apartado de "Contactos" mostrando la info*/
